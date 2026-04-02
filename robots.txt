@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://evacasinoe.github.io/sitemap.xml
+Sitemap: https://hypecasino.github.io/sitemap.xml
