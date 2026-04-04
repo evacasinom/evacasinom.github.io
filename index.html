@@ -203,16 +203,17 @@
             <!-- HERO SECTION -->
             <section class="relative mb-6 mt-2 md:mt-6">
                 <div class="relative h-[280px] md:h-[360px] w-full bg-gray-900 rounded-3xl overflow-hidden border border-gray-800">
-                    <!-- Background Image Placeholder -->
-                    <img src="https://static.photos/1200x630?random=1" alt="Hero Banner" class="w-full h-full object-cover opacity-80">
                     
-                    <!-- Mascot Eva (CSS Representation) -->
-                    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[320px] md:w-[450px] pointer-events-none">
-                        <img src="https://static.photos/450x500?category=people" alt="Eva Mascot" class="w-full h-auto object-contain drop-shadow-[0_0_20px_rgba(0,0,0,0.8)]">
+                    <!-- Layer 1: Background Image -->
+                    <img src="https://static.photos/1200x630/abstract/85" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-50 z-0">
+                    
+                    <!-- Layer 2: Girl/Mascot Image -->
+                    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[320px] md:w-[450px] pointer-events-none z-10">
+                        <img src="https://static.photos/450x500/people/99" alt="Eva Mascot" class="w-full h-auto object-contain drop-shadow-[0_0_40px_rgba(0,0,0,1)]">
                     </div>
 
-                    <!-- Gradient Overlay at bottom -->
-                    <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-950 to-transparent"></div>
+                    <!-- Gradient Overlay for blending with content below -->
+                    <div class="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-gray-950 via-gray-950/60 to-transparent z-20"></div>
                 </div>
 
                 <!-- Features Carousel -->
